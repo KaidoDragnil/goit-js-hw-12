@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>JS-HW-12</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -15,7 +15,7 @@
         name="image-search"
         placeholder="Search images..."
       />
-      <button class="image-search-button">Search</button>
+      <button class="image-search-button button">Search</button>
     </form>
 
     <div class="loader-container">
@@ -25,7 +25,10 @@
     <!-- <span class="loader"></span> -->
 
     <div class="gallery"></div>
-
+    <button class="more-button button" type="button" style="display: none">
+      Load more
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
